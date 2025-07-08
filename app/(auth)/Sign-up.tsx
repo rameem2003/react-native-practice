@@ -22,10 +22,7 @@ const Signup = () => {
         secureTextEntry={true}
       />
 
-      <TouchableOpacity
-        onPress={() => router.replace("/")}
-        className=" bg-primary p-[14px] rounded-full text-center"
-      >
+      <TouchableOpacity className=" bg-primary p-[14px] rounded-full text-center">
         <Text className=" text-center text-white text-base font-quicksand-bold">
           Sign up
         </Text>

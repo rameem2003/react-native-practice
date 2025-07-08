@@ -2,7 +2,7 @@ import React from "react";
 import { Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const Profile = () => {
+const Cart = () => {
   return (
     <SafeAreaView
       style={{
@@ -12,10 +12,10 @@ const Profile = () => {
       }}
     >
       <Text className="text-3xl text-primary font-quicksand-semibold text-center">
-        Profile Page
+        Cart Page
       </Text>
     </SafeAreaView>
   );
 };
 
-export default Profile;
+export default Cart;

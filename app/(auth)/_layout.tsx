@@ -12,6 +12,8 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function _Layout() {
+  // const isAuthenticated = true; // Replace with actual login state logic
+  // if (!isAuthenticated) return <Redirect href="/" />;
   return (
     <SafeAreaView>
       <KeyboardAvoidingView
